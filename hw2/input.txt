@@ -1,0 +1,23 @@
+register testA 111
+register testB 222
+register testC 333
+login testA 111
+login testB 222
+login testC 333
+invite testA testB
+accept-invite testB testA
+invite testB testC
+accept-invite testC testB
+list-friend testA
+list-friend testB
+list-friend testC
+post testA Hi I am A
+post testB Hi I am B
+post testC Hi I am C
+receive-post testA
+receive-post testB
+receive-post testC
+delete testA
+delete testB
+delete testC
+exit
